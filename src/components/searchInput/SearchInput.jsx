@@ -7,9 +7,9 @@ const SearchInput = () => {
             <input
                 type="text"
                 placeholder="Busqueda..."
-                className="w-full h-full pl-2 bg-white outline-none rounded-md "
+                className="w-full h-full pl-2 bg-white outline-none rounded-l-md "
             />
-            <div className="w-10 h-8 flex justify-center items-center bg-slate-700 rounded-xs cursor-pointer shadow-md ">
+            <div className="w-10 h-8 flex justify-center items-center bg-slate-700 rounded-r-md cursor-pointer shadow-md  ">
                 <AiOutlineSearch color="pink" />
             </div>
         </div>
