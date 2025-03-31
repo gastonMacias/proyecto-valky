@@ -23,9 +23,12 @@ const Productos = () => {
 
     return (
         <>
-            <main className="flex flex-col gap-8 bg-gray-200 p-6 ">
-                <h3 className="text-center text-pink-400 font-bold text-3xl">Nuestros Productos</h3>
-                <div className="flex-col ">
+            <main
+                className="flex flex-col gap-8 bg-gray-200 p-6 ">
+                <h3
+                    className="text-center text-pink-400 font-bold text-3xl">Nuestros Productos</h3>
+                <div
+                    className="mb-20">
                     {Object.keys(grupos).map((grupo, index) => (
                         <GrupoProductos key={index} titulo={grupo} productos={grupos[grupo]} />
                     ))}

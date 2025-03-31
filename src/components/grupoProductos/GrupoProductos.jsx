@@ -4,8 +4,10 @@ import Cards from "../cards/Cards.jsx"
 const GrupoProductos = ({ titulo, productos }) => {
     return (
         <>
-            <h3 className="text-left text-pink-400 font-bold text-2xl bg-gray-100 m-3 p-3 rounded">{titulo}</h3>
-            <div className="flex items-center justify-center gap-4 p-5">
+            <h3
+                className="text-left text-white font-bold text-2xl bg-orange-300 m-3 p-3 rounded">{titulo}</h3>
+            <div
+                className="grid grid-cols-2 gap-4 mb-16 md:grid-cols-3 lg:grid-cols-4 lg:mb-20">
                 {productos.map((producto) => (
                     <Cards key={producto.id} producto={producto} />
                 ))}
