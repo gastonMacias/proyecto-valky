@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "anuncio": "Ofertas",
+        "grupo": "Cuadernos A4",
+        "imagen": "/imagenes/cuaderno anillado marvel.jpg",
+        "nombre": "Cuaderno anillado MARVEL A4",
+        "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, cuadriculado",
+        "precio": "$2000"
+    },
+    {
+        "id": 2,
+        "anuncio": "Novedades",
+        "grupo": "Cuadernos A4",
+        "imagen": "/imagenes/cuaderno anillado marvel.jpg",
+        "nombre": "Cuaderno anillado MARVEL A4",
+        "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, rayado",
+        "precio": "$2000"
+    },
+    {
+        "id": 3,
+        "anuncio": "Ofertas",
+        "grupo": "Cuadernos A4",
+        "imagen": "/imagenes/cuaderno anillado marvel.jpg",
+        "nombre": "Cuaderno anillado MARVEL A4",
+        "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, liso",
+        "precio": "$2000"
+    },
+    {
+        "id": 4,
+        "anuncio": "Novedades",
+        "grupo": "Cuadernos A4",
+        "imagen": "/imagenes/cuaderno anillado marvel.jpg",
+        "nombre": "Cuaderno anillado MARVEL A4",
+        "descripcion": "cuaderno anillado MARVEL A4, tapa dura, rayado",
+        "precio": "$2000"
+    },
+    {
+        "id": 5,
+        "anuncio": "Ofertas",
+        "grupo": "Cuadernos A5",
+        "imagen": "/imagenes/cuaderno anillado marvelA5.jpg",
+        "nombre": "Cuaderno anillado MARVEL A5",
+        "descripcion": "cuaderno anillado MARVEL A5, tapa dura, rayado",
+        "precio": "$2600"
+    },
+    {
+        "id": 6,
+        "anuncio": "Novedades",
+        "grupo": "Cuadernos A5",
+        "imagen": "/imagenes/cuaderno anillado marvelA5.jpg",
+        "nombre": "Cuaderno anillado MARVEL A5",
+        "descripcion": "cuaderno anillado MARVEL A5, tapa blanda, cuadriculado",
+        "precio": "$2600"
+    },
+    {
+        "id": 7,
+        "anuncio": "Ofertas",
+        "grupo": "Cuadernos A5",
+        "imagen": "/imagenes/cuaderno anillado marvelA5.jpg",
+        "nombre": "Cuaderno anillado MARVEL A5",
+        "descripcion": "cuaderno anillado MARVEL A5, tapa dura, rayado",
+        "precio": "$2600"
+    },
+    {
+        "id": 8,
+        "anuncio": "Novedades",
+        "grupo": "Cuadernos A5",
+        "imagen": "/imagenes/cuaderno anillado marvelA5.jpg",
+        "nombre": "Cuaderno anillado MARVEL A5",
+        "descripcion": "cuaderno anillado MARVEL A5, tapa blanda, liso",
+        "precio": "$2600"
+    },
+    {
+        "id": 9,
+        "anuncio": "Ofertas",
+        "grupo": "Anotadores A5",
+        "imagen": "/imagenes/anotador anillado marvelA5.jpg",
+        "nombre": "Anotador A5 Marvel",
+        "descripcion": "Anotador A5 Marvel, tapa blanda",
+        "precio": "$3000"
+    },
+    {
+        "id": 10,
+        "anuncio": "Novedades",
+        "grupo": "Anotadores A5",
+        "imagen": "/imagenes/anotador anillado marvelA5.jpg",
+        "nombre": "Anotador A5 Marvel",
+        "descripcion": "Anotador A5 Marvel, tapa blanda",
+        "precio": "$3000"
+    },
+    {
+        "id": 11,
+        "anuncio": "Ofertas",
+        "grupo": "Anotadores A5",
+        "imagen": "/imagenes/anotador anillado marvelA5.jpg",
+        "nombre": "Anotador A5 Marvel",
+        "descripcion": "Anotador A5 Marvel, tapa blanda",
+        "precio": "$3000"
+    },
+    {
+        "id": 12,
+        "anuncio": "Novedades",
+        "grupo": "Anotadores A5",
+        "imagen": "/imagenes/anotador anillado marvelA5.jpg",
+        "nombre": "Anotador A5 Marvel",
+        "descripcion": "Anotador A5 Marvel, tapa blanda",
+        "precio": "$3000"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "imagen": "/imagenes/cuaderno anillado marvel.jpg",
+        "nombre": "Cuadernos universitarios A4"
+    },
+    {
+        "id": 2,
+        "imagen": "/imagenes/cuaderno anillado marvelA5.jpg",
+        "nombre": "Cuadernos universitarios A5"
+    },
+    {
+        "id": 3,
+        "imagen": "/imagenes/anotador anillado marvelA5.jpg",
+        "nombre": "Anotadores anillados A5"
+    },
+    {
+        "id": 4,
+        "imagen": "/imagenes/libros para colorear.jpg",
+        "nombre": "Libros para colorear"
+    },
+    {
+        "id": 5,
+        "imagen": "/imagenes/agendas 2025.jpg",
+        "nombre": "Agendas 2025"
+    },
+    {
+        "id": 6,
+        "imagen": "/imagenes/agendas perpetuas.jpg",
+        "nombre": "Agendas perpetuas"
+    },
+    {
+        "id": 7,
+        "imagen": "/imagenes/agenda docente.jpg",
+        "nombre": "Agendas docentes"
+    },
+    {
+        "id": 8,
+        "imagen": "/imagenes/cuadernillo docente.jpg",
+        "nombre": "Cuadernillos docentes"
+    },
+    {
+        "id": 9,
+        "imagen": "/imagenes/cuaderno de ingresos-egresos.jpg",
+        "nombre": "Cuadernos de ingresos-egresos"
+    },
+    {
+        "id": 10,
+        "imagen": "/imagenes/stickers comunes.jpg",
+        "nombre": "Stickers comunes"
+    },
+    {
+        "id": 11,
+        "imagen": "/imagenes/stickers blancos.jpg",
+        "nombre": "Stickers blancos"
+    },
+    {
+        "id": 12,
+        "imagen": "/imagenes/stickers transparentes.jpg",
+        "nombre": "Stickers transparentes"
+    },
+    {
+        "id": 13,
+        "imagen": "/imagenes/stickers holograficos.jpg",
+        "nombre": "Stickers holograficos"
+    },
+    {
+        "id": 14,
+        "imagen": "/imagenes/tablas de multiplicar.jpg",
+        "nombre": "Tablas de multiplicar"
+    },
+    {
+        "id": 15,
+        "imagen": "/imagenes/planners mensuales.jpg",
+        "nombre": "Planners mensuales"
+    },
+    {
+        "id": 16,
+        "imagen": "/imagenes/planners semanal.jpg",
+        "nombre": "Planners semanales"
+    },
+    {
+        "id": 17,
+        "imagen": "/imagenes/horarios escolares.jpg",
+        "nombre": "Horarios escolares"
+    },
+    {
+        "id": 18,
+        "imagen": "/imagenes/horarios semanales.jpg",
+        "nombre": "Horarios semanales"
+    },
+    {
+        "id": 19,
+        "imagen": "/imagenes/plastificados.jpg",
+        "nombre": "Plastificados"
+    }
+]
