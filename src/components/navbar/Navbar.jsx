@@ -2,7 +2,7 @@
 import SearchInput from '../searchInput/SearchInput';
 
 
-const Navbar = () => {
+const Navbar = ({searchTerm, setSearchTerm }) => {
     return (
         <>
             <nav className="flex flex-col items-center justify-around min-h-[4rem] bg-pink-300 sm:flex-col lg:flex-row p-4">
@@ -17,7 +17,7 @@ const Navbar = () => {
                     </h1>
                 </div>
                 <div>
-                    <SearchInput />
+                    <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
                 </div>
             </nav>
         </>
