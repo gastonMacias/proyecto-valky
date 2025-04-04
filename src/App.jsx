@@ -4,15 +4,19 @@ import Navbar from './components/navbar/Navbar'
 import Carrousel from './components/carrousel/Carrousel'
 import Productos from './components/productos/Productos'
 import Footer from './components/footer/Footer'
+import { useState } from 'react'
 
 
 
 function App() {
+
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <>
-      <Navbar />
+      <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Carrousel />
-      <Productos />
+      <Productos searchTerm={searchTerm} />
       <Footer />
     </>
   )
