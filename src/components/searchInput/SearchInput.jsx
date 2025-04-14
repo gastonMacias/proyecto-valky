@@ -1,10 +1,11 @@
-
+import { useContext } from "react";
+import { counterContext } from "../../context/counterContext";
 import { AiOutlineSearch } from "react-icons/ai"
 
 
-const SearchInput = ({searchTerm, setSearchTerm }) => {
+const SearchInput = () => {
 
-   
+    const { searchTerm, setSearchTerm } = useContext(counterContext); // <-- accedé al contexto
 
     const handleChange = (e) => {
         setSearchTerm(e.target.value);

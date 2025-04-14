@@ -1,8 +1,14 @@
-
+import { useContext } from "react";
+import { counterContext } from "../../context/counterContext";
 import SearchInput from '../searchInput/SearchInput';
 
 
-const Navbar = ({searchTerm, setSearchTerm }) => {
+const Navbar = () => {
+
+
+    const { searchTerm, setSearchTerm } = useContext(counterContext); // <-- accedé al contexto
+
+
     return (
         <>
             <nav className="flex flex-col items-center justify-around min-h-[4rem] bg-pink-300 sm:flex-col lg:flex-row p-4">

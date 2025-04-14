@@ -1,30 +1,9 @@
-
-import { useState, useEffect } from "react";
+import { useContext } from "react";
+import { counterContext } from "../../context/counterContext";
 import GrupoProductos from "../grupoProductos/GrupoProductos.jsx";
 
-
-const Productos = ({ searchTerm }) => {
-    const [productos, setProductos] = useState([]);
-
-
-    useEffect(() => {
-        fetch("/jsonAPI/datos.json")
-            .then((response) => response.json())
-            .then((data) => setProductos(data))
-            .catch((error) => console.error("Error al cargar los productos:", error));
-    }, []);
-
-    // Primero filtramos los productos antes de agruparlos
-    const productosFiltrados = productos.filter((producto) =>
-        producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
-    // Luego agrupamos los productos filtrados
-    const grupos = productosFiltrados.reduce((acc, { anuncio, ...producto }) => {
-        if (!acc[anuncio]) acc[anuncio] = [];
-        acc[anuncio].push(producto);
-        return acc;
-    }, {});
+const Productos = () => {
+    const { grupos } = useContext(counterContext); // <-- obtenés 'grupos' desde el contexto
 
     return (
         <main className="flex flex-col items-center justify-center gap-6 bg-gray-200 p-4">
@@ -33,15 +12,20 @@ const Productos = ({ searchTerm }) => {
             </h3>
 
             <div className="mb-20">
-                {Object.keys(grupos).map((grupo, index) => (
-                    <GrupoProductos key={index} titulo={grupo} productos={grupos[grupo]} />
-                ))}
+                {grupos && Object.keys(grupos).length > 0 ? (
+                    Object.keys(grupos).map((grupo, index) => (
+                        <GrupoProductos key={index} titulo={grupo} productos={grupos[grupo]} />
+                    ))
+                ) : (
+                    <p className="text-center text-gray-500 mt-10">Cargando productos...</p>
+                )}
             </div>
         </main>
     );
 };
 
 export default Productos;
+
 
 
 
