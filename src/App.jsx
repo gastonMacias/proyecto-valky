@@ -1,5 +1,6 @@
-import { useState } from 'react';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import StateCompo from "../src/context/StateCompo"
 
 import './App.css'
 
@@ -29,38 +30,39 @@ import Plastificados from './pages/Plastificados';
 
 
 
-function App() {
 
-  const [searchTerm, setSearchTerm] = useState("");
+function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-        <Routes>
-          <Route path='/' element={<Home searchTerm={searchTerm} />} />
-          <Route path='/cuadernosA4' element={<CuadernosA4 />} />
-          <Route path='/cuadernosA5' element={<CuadernosA5 />} />
-          <Route path='/anotadores' element={<Anotadores />} />
-          <Route path='/libros_para_colorear' element={<LibrosParaColorear />} />
-          <Route path='/agendas2025' element={<Agendas2025 />} />
-          <Route path='/agendas_perpetuas' element={<AgendasPerpetuas />} />
-          <Route path='/agendas_docentes' element={<AgendasDocentes />} />
-          <Route path='/cuadernillos_docentes' element={<CuadernillosDocentes />} />
-          <Route path='/cuaderno_ingresos_egresos' element={<CuadernosIngegr />} />
-          <Route path='/stickers_comunes' element={<StickersComunes />} />
-          <Route path='/stickers_blancos' element={<StickersBlancos />} />
-          <Route path='/stickers_transparentes' element={<StickersTransparentes />} />
-          <Route path='/stickers_holograficos' element={<StickersHolograficos /> } />
-          <Route path='/tablas_de_multiplicar' element={<TablasMultiplicar /> } />
-          <Route path='/planners_mensuales' element={<PlannersMensuales /> } />
-          <Route path='/planners_semanales' element={<PlannersSemanales /> } />
-          <Route path='/horarios_escolares' element={<HorariosEscolares /> } />
-          <Route path='/horarios_semanales' element={<HorariosSemanales /> } />
-          <Route path='/plastificados' element={<Plastificados /> } />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <StateCompo>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/cuadernosA4' element={<CuadernosA4 />} />
+            <Route path='/cuadernosA5' element={<CuadernosA5 />} />
+            <Route path='/anotadores' element={<Anotadores />} />
+            <Route path='/libros_para_colorear' element={<LibrosParaColorear />} />
+            <Route path='/agendas2025' element={<Agendas2025 />} />
+            <Route path='/agendas_perpetuas' element={<AgendasPerpetuas />} />
+            <Route path='/agendas_docentes' element={<AgendasDocentes />} />
+            <Route path='/cuadernillos_docentes' element={<CuadernillosDocentes />} />
+            <Route path='/cuaderno_ingresos_egresos' element={<CuadernosIngegr />} />
+            <Route path='/stickers_comunes' element={<StickersComunes />} />
+            <Route path='/stickers_blancos' element={<StickersBlancos />} />
+            <Route path='/stickers_transparentes' element={<StickersTransparentes />} />
+            <Route path='/stickers_holograficos' element={<StickersHolograficos />} />
+            <Route path='/tablas_de_multiplicar' element={<TablasMultiplicar />} />
+            <Route path='/planners_mensuales' element={<PlannersMensuales />} />
+            <Route path='/planners_semanales' element={<PlannersSemanales />} />
+            <Route path='/horarios_escolares' element={<HorariosEscolares />} />
+            <Route path='/horarios_semanales' element={<HorariosSemanales />} />
+            <Route path='/plastificados' element={<Plastificados />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </StateCompo>
     </>
   )
 }
