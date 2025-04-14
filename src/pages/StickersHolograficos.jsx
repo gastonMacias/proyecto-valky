@@ -1,8 +1,10 @@
 const StickersHolograficos = () => {
     return (
         <>
-            <div>
-                <h3>Stickers Holograficos</h3>
+            <div className="flex flex-col items-center justify-center gap-6 bg-gray-200 p-4">
+                <h3 className="text-center text-pink-400 font-bold text-3xl">
+                    Stickers Holograficos
+                </h3>
             </div>
         </>
     )
