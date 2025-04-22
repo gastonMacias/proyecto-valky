@@ -23,10 +23,12 @@ const StateCompo = ({ children }) => {
           .catch((error) => console.error("Error al cargar los productos:", error));
       }, []);
 
+      
     // Primero filtramos los productos antes de agruparlos
     const productosFiltrados = productos.filter((producto) =>
         producto.nombre.toLowerCase().includes(searchTerm.toLowerCase())
     );
+
 
     // Luego agrupamos los productos filtrados
     const grupos = productosFiltrados.reduce((acc, { anuncio, ...producto }) => {
