@@ -4,71 +4,87 @@ export const CarritoContext = createContext();
 
 
 const CarritoProvider = ({ children }) => {
-    const [carrito, setCarrito] = useState([])
+  const [carrito, setCarrito] = useState([])
+
+
+  const agregarAlCarrito = (producto) => {
+    setCarrito((prev) => {
+      const productoEnCarritoIndex = prev.find((item) => item.id === producto.id);
+      if (productoEnCarritoIndex) {
+        return prev.map((item) =>
+          item.id === producto.id ? { ...item, quantity: item.quantity + 1 } : item
+        );
+      } else {
+        return [...prev, { ...producto, quantity: 1 }];
+      }
+    });
+  };
+
+  const sacarDelCarrito = (productoId) => {
+    setCarrito((prev) => {
+      return prev
+        .map((item) =>
+          item.id === productoId
+            ? { ...item, quantity: item.quantity - 1 }
+            : item
+        )
+        .filter((item) => item.quantity > 0); // 👈 elimina si la cantidad llega a 0
+    });
+  };
+
+
+  const limpiarCarrito = () => {
+    setCarrito([])
+  }
+
+  const totalItems = carrito.reduce((sum, item) => sum + item.quantity, 0);
+
+  const totalPrice = carrito.reduce((sum, item) => {
+    return sum + (parseFloat(item.precio) || 0) * (item.quantity || 1);
+  }, 0);
+
+
+  const generarMensaje = (carrito, totalPrice) => {
+    const productosTexto = carrito.map(item => `- ${item.quantity} x ${item.nombre} (${item.precio})`)
+      .join("\n");
+  
+    const mensaje = `Hola, quiero hacer un pedido:\n${productosTexto}\nTotal: $${totalPrice}`;
+  
+    console.log("📝 Mensaje generado:", mensaje); // <-- corregido, antes decía mensajeCompleto (que no existe)
     
-
-    const agregarAlCarrito = (producto) => {
-        setCarrito((prev) => {
-          const productoEnCarritoIndex = prev.find((item) => item.id === producto.id);
-          if (productoEnCarritoIndex) {
-            return prev.map((item) =>
-              item.id === producto.id ? { ...item, quantity: item.quantity + 1 } : item
-            );
-          } else {
-            return [...prev, { ...producto, quantity: 1 }];
-          }
-        });
-      };
-      
-
-    const removerDelCarrito = (productoId) => {
-        setCarrito((prev) => prev.filter((item) => item.id !== productoId));
-      };
+    return mensaje;
+  };
 
 
-    const limpiarCarrito = () => {
-        setCarrito([])
-    }
+  const enviarPorWhatsapp = () => {
+    const mensaje = generarMensaje(carrito, totalPrice);
+    const numero = "5491159362462"; 
 
-    const totalItems = carrito.reduce((sum, item) => sum + item.quantity, 0);
+    console.log("📤 Enviando mensaje a WhatsApp:", mensaje); 
+    limpiarCarrito()
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank"); 
+  };
 
-    const totalPrice = carrito.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
-
-    return (
-        <CarritoContext.Provider  value={{
-            carrito,
-            agregarAlCarrito,
-            removerDelCarrito,
-            totalItems,
-            totalPrice,
-            limpiarCarrito
-        }}>
-        { children }
-        </CarritoContext.Provider>
-)}
+  return (
+    <CarritoContext.Provider value={{
+      carrito,
+      agregarAlCarrito,
+      sacarDelCarrito,
+      totalItems,
+      totalPrice,
+      limpiarCarrito,
+      generarMensaje,
+      enviarPorWhatsapp
+    }}>
+      {children}
+    </CarritoContext.Provider>
+  )
+}
 
 
 export default CarritoProvider
 
 
 
-// const agregarAlCarrito = product => {
-       
-//     const productoEnCarritoIndex = carrito.findIndex(item => item.id === product.id)
-
-//     if (productoEnCarritoIndex >= 0) {
-//         const nuevoCarrito = structuredClone(carrito)
-//         nuevoCarrito[productoEnCarritoIndex].quantity += 1
-//         setCarrito(nuevoCarrito)
-//         return
-//     }
-
-//     setCarrito(prevState => ([
-//         ... prevState,
-//         {
-//             ...product,
-//             quantity: 1
-//         }
-//     ]))
-//  }
