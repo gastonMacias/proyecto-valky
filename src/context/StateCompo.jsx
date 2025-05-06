@@ -7,17 +7,17 @@ const StateCompo = ({ children }) => {
 
     const [searchTerm, setSearchTerm] = useState(""); //para busqueda
 
-    const [productos, setProductos] = useState([]);
+    const [productos, setProductos] = useState([]); //para desplegar los productos
 
 
     useEffect(() => {
         fetch("/jsonAPI/datos.json")
           .then((response) => {
-            console.log("Respuesta del fetch:", response); // Primer console.log para la respuesta
+            // console.log("Respuesta del fetch:", response); // Primer console.log para la respuesta
             return response.json();
           })
           .then((data) => {
-            console.log("Datos recibidos del JSON:", data); // Segundo console.log para los datos
+            // console.log("Datos recibidos del JSON:", data); // Segundo console.log para los datos
             setProductos(data);
           })
           .catch((error) => console.error("Error al cargar los productos:", error));
