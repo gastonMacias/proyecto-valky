@@ -27,7 +27,7 @@ const Cards = ({ producto }) => {
                 {/* Información */}
                 <div className="text-center p-4">
                     <h4 className="mb-2 text-lg font-thin">{producto.nombre}</h4>
-                    <p className="text-xl font-extrabold text-pink-700">{producto.precio}</p>
+                    <p className="text-xl font-extrabold text-pink-700">$ {producto.precio}</p>
                 </div>
 
                 {/* Botón */}
