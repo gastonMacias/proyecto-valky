@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { counterContext } from "../../context/counterContext";
 import SearchInput from '../searchInput/SearchInput';
+import Carrito from "../carrito/Carrito";
+
 
 
 const Navbar = () => {
@@ -25,6 +27,7 @@ const Navbar = () => {
                 <div>
                     <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
                 </div>
+                <Carrito />
             </nav>
         </>
     )
