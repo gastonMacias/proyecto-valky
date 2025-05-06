@@ -12,10 +12,11 @@ const Carrito = () => {
     const {
       carrito, 
       agregarAlCarrito,
-      removerDelCarrito,
+      sacarDelCarrito,
       limpiarCarrito,
       totalItems,
-      totalPrice
+      totalPrice,
+      enviarPorWhatsapp
     } = useCarrito();
   
     const toggleCarrito = () => {
@@ -59,7 +60,7 @@ const Carrito = () => {
                 <li key={producto.id} className="border-b border-amber-200 pb-4">
                   <div className="flex justify-between text-white">
                     <p>{producto.nombre}</p>
-                    <p>${producto.precio}</p>
+                    <p>{producto.precio}</p>
                   </div>
                   <div className="flex justify-between items-center mt-2 text-white">
                     <p>Cantidad: {producto.quantity}</p>
@@ -71,7 +72,7 @@ const Carrito = () => {
                         +
                       </button>
                       <button
-                        onClick={() => removerDelCarrito(producto.id)}
+                        onClick={() => sacarDelCarrito(producto.id)}
                         className="bg-white text-pink-600 font-bold px-2 rounded hover:bg-gray-200"
                       >
                         -
@@ -88,6 +89,13 @@ const Carrito = () => {
               <div className="mt-4 text-white">
                 <p>Total: ${totalPrice}</p>
               </div>
+
+              <button
+                onClick={() => enviarPorWhatsapp(carrito, totalPrice)}
+                className="mt-6 w-full bg-amber-300 text-black font-bold py-2 rounded hover:bg-white"
+              >
+                Generar Pedido
+              </button>
   
               <button
                 onClick={limpiarCarrito}
