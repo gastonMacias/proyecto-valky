@@ -1,6 +1,17 @@
 
+import useCarrito from "../../context/useCarrito";
+
+
 
 const Cards = ({ producto }) => {
+
+    const { agregarAlCarrito } = useCarrito();
+
+    const handleAgregar = () => {
+        console.log("Click en Agregar al carrito", producto); // 👈 Log para verificar
+        agregarAlCarrito(producto);
+      };
+
     return (
         <>
             <div className="flex flex-col items-center justify-between w-full h-auto pb-4 bg-pink-100 rounded-lg shadow-md hover:shadow-lg hover:shadow-pink-600 overflow-hidden md:w-60">
@@ -21,7 +32,9 @@ const Cards = ({ producto }) => {
 
                 {/* Botón */}
                 <div className="w-full px-4">
-                    <button className="w-full p-2 border rounded bg-pink-200 hover:bg-pink-400 hover:text-white transition duration-300">
+                    <button className="w-full p-2 border rounded bg-pink-200 hover:bg-pink-400 hover:text-white transition duration-300" 
+                    onClick={handleAgregar}
+                    >
                         Agregar al carrito
                     </button>
                 </div>
