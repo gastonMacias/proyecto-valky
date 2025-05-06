@@ -1,6 +1,9 @@
+
 import Cards from "../cards/Cards.jsx"
 
 const GrupoProductos = ({ titulo, productos }) => {
+
+
     return (
         <>
             <h3 className="text-left text-white font-bold text-2xl bg-orange-300 m-3 p-3 rounded">
