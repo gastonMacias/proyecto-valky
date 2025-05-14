@@ -13,11 +13,11 @@ const SearchInput = () => {
 
 
     return (
-        <div className="w-70 h-8 flex justify-center shadow-md ">
+        <div className="w-70 h-8 flex justify-center shadow-lg">
             <input
                 type="text"
-                placeholder="Busca entre nuestros productos..."
-                className="w-full h-full pl-2 bg-white outline-none rounded-1-md "
+                placeholder="Buscá entre nuestros productos..."
+                className="w-full h-full pl-2 bg-white outline-none rounded-bl-md rounded-l-md "
                 value={searchTerm}
                 onChange={handleChange}
             />
