@@ -13,8 +13,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="flex flex-col items-center justify-around min-h-[4rem] bg-pink-300 sm:flex-col lg:flex-row p-4">
-                <div className="flex flex-col items-center text-center">
+            <nav className="flex min-h-[4rem] bg-pink-300 p-4 sm: flex-col">
+                <div className="flex flex-col items-center">
                     <img
                         className="w-16 rounded-xl sm:w-24 sm:rounded-2xl lg:w-32 lg:rounded-4xl"
                         src="../public/logo/logo sin fondo.jpg"
@@ -24,10 +24,10 @@ const Navbar = () => {
                         Papelería Creativa Valky
                     </h1>
                 </div>
-                <div>
+                <div className="flex items-center justify-around">
                     <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+                    <Carrito />
                 </div>
-                <Carrito />
             </nav>
         </>
     )
