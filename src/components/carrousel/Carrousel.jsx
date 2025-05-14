@@ -41,7 +41,7 @@ const Carrousel = () => {
             {/* Contenedor del carrusel */}
             <div
                 ref={carruselRef}
-                className="flex gap-4 scroll-smooth scrollbar-hide w-full h-70 px-10 overflow-hidden overflow-x-hidden"
+                className="flex gap-4 scroll-smooth scrollbar-hide w-full h-60 px-4 overflow-hidden overflow-x-hidden"
             >
                 {datosCarrousel.map((item, index) => (
                     <div
