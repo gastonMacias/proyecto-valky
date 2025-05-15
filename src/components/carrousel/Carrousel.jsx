@@ -11,7 +11,7 @@ const Carrousel = () => {
 
 
     useEffect(() => {
-        fetch("/jsonAPI/datosCarrousel.json")
+        fetch(`${import.meta.env.BASE_URL}jsonAPI/datosCarrousel.json`)
             .then((response) => response.json())
             .then((data) => setDatosCarrousel(data))
             .catch((error) => console.error("Error al cargar los datos:", error));
@@ -51,7 +51,7 @@ const Carrousel = () => {
                         >
                         
                         <img
-                            src={item.imagen}
+                            src={`${import.meta.env.BASE_URL}${item.imagen}`}
                             alt={item.nombre}
                             className="w-35 h-35" />
                         <p
