@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="flex flex-col items-center">
                     <img
                         className="w-16 rounded-xl sm:w-24 sm:rounded-2xl lg:w-32 lg:rounded-4xl"
-                        src="../public/logo/logo sin fondo.jpg"
+                        src={`${import.meta.env.BASE_URL}logo/logo sin fondo.jpg`}
                         alt="logo valky"
                     />
                     <h1 className="text-lg sm:text-xl lg:text-2xl font-semibold">
