@@ -6,6 +6,7 @@ import { counterContext } from "./counterContext";
 const StateCompo = ({ children }) => {
 
     const [searchTerm, setSearchTerm] = useState(""); //para busqueda
+    const [inputValue, setInputValue] = useState(""); //lo que el usuario escribe
 
     const [productos, setProductos] = useState([]); //para desplegar los productos
 
@@ -42,9 +43,11 @@ const StateCompo = ({ children }) => {
             value={{
                 searchTerm,
                 setSearchTerm,
+                inputValue,
+                setInputValue,
                 productos,
                 productosFiltrados,
-                grupos,
+                grupos
             }}
         >
             {children}
