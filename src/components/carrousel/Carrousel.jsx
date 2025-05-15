@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 
+
 const Carrousel = () => {
     const [datosCarrousel, setDatosCarrousel] = useState([]);
     const carruselRef = useRef(null);
@@ -10,7 +11,7 @@ const Carrousel = () => {
 
 
     useEffect(() => {
-        fetch(`${import.meta.env.BASE_URL}jsonAPI/datosCarrousel.json`)
+        fetch("/jsonAPI/datosCarrousel.json")
             .then((response) => response.json())
             .then((data) => setDatosCarrousel(data))
             .catch((error) => console.error("Error al cargar los datos:", error));
