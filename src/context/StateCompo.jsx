@@ -12,7 +12,7 @@ const StateCompo = ({ children }) => {
 
 
     useEffect(() => {
-        fetch(`${import.meta.env.BASE_URL}jsonAPI/datos.json`) //para que funcione en el deploy
+        fetch(`jsonAPI/datos.json`) 
           .then((response) => {
             // console.log("Respuesta del fetch:", response); // Primer console.log para la respuesta
             return response.json();

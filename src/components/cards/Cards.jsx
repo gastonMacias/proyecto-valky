@@ -19,7 +19,7 @@ const Cards = ({ producto }) => {
                 <div className="w-full">
                     <img
                         className="w-full h-40 object-cover p-2 rounded-t-lg"
-                        src={`${import.meta.env.BASE_URL}${producto.imagen}`}
+                        src={producto.imagen}
                         alt={producto.descripcion}
                     />
                 </div>
