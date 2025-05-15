@@ -50,7 +50,7 @@ const Carrousel = () => {
                         >
                         
                         <img
-                            src={`${import.meta.env.BASE_URL}${item.imagen}`}
+                            src={item.imagen}
                             alt={item.nombre}
                             className="w-35 h-35" />
                         <p
