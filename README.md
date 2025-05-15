@@ -1,12 +1,25 @@
-# React + Vite
+# Proyecto Papeleria Creativa Valky
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pagina web para organizar, mostrar y comercializar los productos de la Papelera Creativa Valky, ademas sirve 
+como practica de desarrollo web.
+la pagina toma un archivo .Json que contiene productos y los muestra en CARDS, al agregar el producto al
+carrito y generar un pedido el mismo genera un mensaje de whatsApp que recibira el vendedor de los productos.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias usadas
 
-## Expanding the ESLint configuration
+- La pagina esta realizada en REACT + Vite.
+- Sus estilos fueron hechos con Tailwind CSS y Material UI.
+- Se utilizo React Router DOM para la navegacion entre paginas.
+- Se practico el uso de useState, useEffect y useContext
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📄 Licencia
+
+- El proyecto sirve para conocimientos y experiencias para desarrollo web, tambien es posible que en algun 
+  momento se utilice con fines comerciales.
+
+
+## Futuros Cambios
+
+- En un futuro se le agregara un Backend.
