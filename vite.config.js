@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: '/proyecto-valky/'
+  // base: '/proyecto-valky/'
 })

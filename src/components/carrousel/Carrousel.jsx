@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 
-
 const Carrousel = () => {
     const [datosCarrousel, setDatosCarrousel] = useState([]);
     const carruselRef = useRef(null);
