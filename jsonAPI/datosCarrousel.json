@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "imagen": "/imagenes/cuaderno_anillado_marvel.jpg",
+        "nombre": "Cuadernos universitarios A4",
+        "ruta": "/cuadernosA4"
+    },
+    {
+        "id": 2,
+        "imagen": "/imagenes/cuaderno_anillado_marvelA5.jpg",
+        "nombre": "Cuadernos universitarios A5",
+        "ruta": "/cuadernosA5"
+    },
+    {
+        "id": 3,
+        "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+        "nombre": "Anotadores anillados A5",
+        "ruta": "/anotadores"
+    },
+    {
+        "id": 4,
+        "imagen": "/imagenes/libros_para_colorear.jpg",
+        "nombre": "Libros para colorear",
+        "ruta": "/libros_para_colorear"
+    },
+    {
+        "id": 5,
+        "imagen": "/imagenes/agendas_2025.jpg",
+        "nombre": "Agendas 2025",
+        "ruta": "/agendas2025"
+    },
+    {
+        "id": 6,
+        "imagen": "/imagenes/agendas_perpetuas.jpg",
+        "nombre": "Agendas perpetuas",
+        "ruta": "/agendas_perpetuas"
+    },
+    {
+        "id": 7,
+        "imagen": "/imagenes/agenda_docente.jpg",
+        "nombre": "Agendas docentes",
+        "ruta": "/agendas_docentes"
+    },
+    {
+        "id": 8,
+        "imagen": "/imagenes/cuadernillo_docente.jpg",
+        "nombre": "Cuadernillos docentes",
+        "ruta": "/cuadernillos_docentes"
+    },
+    {
+        "id": 9,
+        "imagen": "/imagenes/cuaderno_de_ingresos_egresos.jpg",
+        "nombre": "Cuadernos de ingresos-egresos",
+        "ruta": "/cuaderno_ingresos_egresos"
+    },
+    {
+        "id": 10,
+        "imagen": "/imagenes/stickers_comunes.jpg",
+        "nombre": "Stickers comunes",
+        "ruta": "/stickers_comunes"
+    },
+    {
+        "id": 11,
+        "imagen": "/imagenes/stickers_blancos.jpg",
+        "nombre": "Stickers blancos",
+        "ruta": "/stickers_blancos"
+    },
+    {
+        "id": 12,
+        "imagen": "/imagenes/stickers_transparentes.jpg",
+        "nombre": "Stickers transparentes",
+        "ruta": "/stickers_transparentes"
+    },
+    {
+        "id": 13,
+        "imagen": "/imagenes/stickers_holograficos.jpg",
+        "nombre": "Stickers holograficos",
+        "ruta": "/stickers_holograficos"
+    },
+    {
+        "id": 14,
+        "imagen": "/imagenes/tablas_de_multiplicar.jpg",
+        "nombre": "Tablas de multiplicar",
+        "ruta": "/tablas_de_multiplicar"
+    },
+    {
+        "id": 15,
+        "imagen": "/imagenes/planners_mensuales.jpg",
+        "nombre": "Planners mensuales",
+        "ruta": "/planners_mensuales"
+    },
+    {
+        "id": 16,
+        "imagen": "/imagenes/planners_semanal.jpg",
+        "nombre": "Planners semanales",
+        "ruta": "/planners_semanales"
+    },
+    {
+        "id": 17,
+        "imagen": "/imagenes/horarios_escolares.jpg",
+        "nombre": "Horarios escolares",
+        "ruta": "/horarios_escolares"
+    },
+    {
+        "id": 18,
+        "imagen": "/imagenes/horarios_semanales.jpg",
+        "nombre": "Horarios semanales",
+        "ruta": "/horarios_semanales"
+    },
+    {
+        "id": 19,
+        "imagen": "/imagenes/plastificados.jpg",
+        "nombre": "Plastificados",
+        "ruta": "/plastificados"
+    }
+]

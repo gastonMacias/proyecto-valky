@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "anuncio": "Ofertas",
+    "grupo": "Cuadernos_A4",
+    "imagen": "/imagenes/cuaderno_anillado_marvel.jpg",
+    "nombre": "Cuaderno anillado MARVEL A4",
+    "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, cuadriculado",
+    "precio": "2000"
+  },
+  {
+    "id": 2,
+    "anuncio": "Novedades",
+    "grupo": "Cuadernos_A4",
+    "imagen": "/imagenes/cuaderno_anillado_marvel.jpg",
+    "nombre": "Cuaderno anillado MARVEL A4",
+    "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, rayado",
+    "precio": "2000"
+  },
+  {
+    "id": 3,
+    "anuncio": "Ofertas",
+    "grupo": "Cuadernos_A4",
+    "imagen": "/imagenes/cuaderno_anillado_marvel.jpg",
+    "nombre": "Cuaderno anillado MARVEL A4",
+    "descripcion": "cuaderno anillado MARVEL A4, tapa blanda, liso",
+    "precio": "2000"
+  },
+  {
+    "id": 4,
+    "anuncio": "Novedades",
+    "grupo": "Cuadernos_A4",
+    "imagen": "/imagenes/cuaderno_anillado_marvel.jpg",
+    "nombre": "Cuaderno anillado MARVEL A4",
+    "descripcion": "cuaderno anillado MARVEL A4, tapa dura, rayado",
+    "precio": "2000"
+  },
+  {
+    "id": 5,
+    "anuncio": "Ofertas",
+    "grupo": "Cuadernos_A5",
+    "imagen": "/imagenes/cuaderno_anillado_marvelA5.jpg",
+    "nombre": "Cuaderno anillado MARVEL A5",
+    "descripcion": "cuaderno anillado MARVEL A5, tapa dura, rayado",
+    "precio": "2600"
+  },
+  {
+    "id": 6,
+    "anuncio": "Novedades",
+    "grupo": "Cuadernos_A5",
+    "imagen": "/imagenes/cuaderno_anillado_marvelA5.jpg",
+    "nombre": "Cuaderno anillado MARVEL A5",
+    "descripcion": "cuaderno anillado MARVEL A5, tapa blanda, cuadriculado",
+    "precio": "2600"
+  },
+  {
+    "id": 7,
+    "anuncio": "Ofertas",
+    "grupo": "Cuadernos_A5",
+    "imagen": "/imagenes/cuaderno_anillado_marvelA5.jpg",
+    "nombre": "Cuaderno anillado MARVEL A5",
+    "descripcion": "cuaderno anillado MARVEL A5, tapa dura, rayado",
+    "precio": "2600"
+  },
+  {
+    "id": 8,
+    "anuncio": "Novedades",
+    "grupo": "Cuadernos_A5",
+    "imagen": "/imagenes/cuaderno_anillado_marvelA5.jpg",
+    "nombre": "Cuaderno anillado MARVEL A5",
+    "descripcion": "cuaderno anillado MARVEL A5, tapa blanda, liso",
+    "precio": "2600"
+  },
+  {
+    "id": 9,
+    "anuncio": "Ofertas",
+    "grupo": "Anotadores_A5",
+    "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+    "nombre": "Anotador A5 Marvel",
+    "descripcion": "Anotador A5 Marvel, tapa blanda",
+    "precio": "3000"
+  },
+  {
+    "id": 10,
+    "anuncio": "Novedades",
+    "grupo": "Anotadores_A5",
+    "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+    "nombre": "Anotador A5 Marvel",
+    "descripcion": "Anotador A5 Marvel, tapa blanda",
+    "precio": "3000"
+  },
+  {
+    "id": 11,
+    "anuncio": "Ofertas",
+    "grupo": "Anotadores_A5",
+    "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+    "nombre": "Anotador A5 Marvel",
+    "descripcion": "Anotador A5 Marvel, tapa blanda",
+    "precio": "3000"
+  },
+  {
+    "id": 12,
+    "anuncio": "Novedades",
+    "grupo": "Anotadores_A5",
+    "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+    "nombre": "Anotador A5 Marvel",
+    "descripcion": "Anotador A5 Marvel, tapa blanda",
+    "precio": "3000"
+  },
+  {
+    "id": 13,
+    "anuncio": "Novedades",
+    "grupo": "Agendas2025",
+    "imagen": "/imagenes/agendas_2025.jpg",
+    "nombre": "Agenda 2025",
+    "descripcion": "Agenda 2025 semanal, tapa dura color azul",
+    "precio": "3500"
+  },
+  {
+    "id": 14,
+    "anuncio": "Ofertas",
+    "grupo": "AgendasDocentes",
+    "imagen": "/imagenes/agenda_docente.jpg",
+    "nombre": "Agenda Docente",
+    "descripcion": "Agenda docente con calendario escolar y horarios",
+    "precio": "3800"
+  },
+  {
+    "id": 15,
+    "anuncio": "Novedades",
+    "grupo": "AgendasPerpetuas",
+    "imagen": "/imagenes/agendas_perpetuas.jpg",
+    "nombre": "Agenda Perpetua",
+    "descripcion": "Agenda sin fechas predefinidas, ideal para uso libre",
+    "precio": "3200"
+  },
+  {
+    "id": 16,
+    "anuncio": "Ofertas",
+    "grupo": "Anotadores",
+    "imagen": "/imagenes/anotador_anillado_marvelA5.jpg",
+    "nombre": "Anotador Simple A5",
+    "descripcion": "Anotador económico A5, tapa flexible",
+    "precio": "1200"
+  },
+  {
+    "id": 17,
+    "anuncio": "Novedades",
+    "grupo": "CuadernillosDocentes",
+    "imagen": "/imagenes/cuadernillo_docente.jpg",
+    "nombre": "Cuadernillo Docente",
+    "descripcion": "Cuadernillo diseñado para planificación docente",
+    "precio": "2900"
+  },
+  {
+    "id": 18,
+    "anuncio": "Ofertas",
+    "grupo": "CuadernosIngEgr",
+    "imagen": "/imagenes/cuaderno_de_ingresos_egresos.jpg",
+    "nombre": "Cuaderno ingresos/egresos",
+    "descripcion": "Cuaderno de ingresos/egresos",
+    "precio": "3100"
+  },
+  {
+    "id": 19,
+    "anuncio": "Novedades",
+    "grupo": "HorariosEscolares",
+    "imagen": "/imagenes/horarios_escolares.jpg",
+    "nombre": "Horario Escolar Infantil",
+    "descripcion": "Planilla ilustrada para organizar horarios escolares",
+    "precio": "800"
+  },
+  {
+    "id": 20,
+    "anuncio": "Ofertas",
+    "grupo": "HorariosSemanales",
+    "imagen": "/imagenes/horarios_semanales.jpg",
+    "nombre": "Horario Semanal",
+    "descripcion": "Planilla de horario semanal para planificación personal",
+    "precio": "1000"
+  },
+  {
+    "id": 21,
+    "anuncio": "Novedades",
+    "grupo": "LibrosParaColorear",
+    "imagen": "/imagenes/libros_para_colorear.jpg",
+    "nombre": "Libro para colorear",
+    "descripcion": "Libro para colorear",
+    "precio": "1500"
+  },
+  {
+    "id": 22,
+    "anuncio": "Ofertas",
+    "grupo": "PlannersMensuales",
+    "imagen": "/imagenes/planners_mensuales.jpg",
+    "nombre": "Planner Mensual",
+    "descripcion": "Planner mensual, ideal para organizar proyectos",
+    "precio": "2400"
+  },
+  {
+    "id": 23,
+    "anuncio": "Novedades",
+    "grupo": "PlannersSemanales",
+    "imagen": "/imagenes/planners_semanal.jpg",
+    "nombre": "Planner Semanal",
+    "descripcion": "Planner semanal con diseño moderno y funcional",
+    "precio": "2200"
+  },
+  {
+    "id": 24,
+    "anuncio": "Ofertas",
+    "grupo": "Plastificados",
+    "imagen": "/imagenes/plastificados.jpg",
+    "nombre": "Plastificados",
+    "descripcion": "Plastificados",
+    "precio": "700"
+  },
+  {
+    "id": 25,
+    "anuncio": "Novedades",
+    "grupo": "StickersBlancos",
+    "imagen": "/imagenes/stickers_blancos.jpg",
+    "nombre": "Set de Stickers Blancos",
+    "descripcion": "Set de stickers blancos para personalizar",
+    "precio": "1100"
+  },
+  {
+    "id": 26,
+    "anuncio": "Ofertas",
+    "grupo": "StickersComunes",
+    "imagen": "/imagenes/stickers_comunes.jpg",
+    "nombre": "Set de Stickers Comunes",
+    "descripcion": "Set de 30 stickers variados para decoración",
+    "precio": "1000"
+  },
+  {
+    "id": 27,
+    "anuncio": "Novedades",
+    "grupo": "StickersHolograficos",
+    "imagen": "/imagenes/stickers_holograficos.jpg",
+    "nombre": "Set de Stickers Holográficos",
+    "descripcion": "Set de 50 stickers holográficos brillantes",
+    "precio": "1200"
+  },
+  {
+    "id": 28,
+    "anuncio": "Ofertas",
+    "grupo": "StickersTransparentes",
+    "imagen": "/imagenes/stickers_transparentes.jpg",
+    "nombre": "Set de Stickers Transparentes",
+    "descripcion": "Stickers transparentes resistentes al agua",
+    "precio": "1300"
+  },
+  {
+    "id": 29,
+    "anuncio": "Novedades",
+    "grupo": "TablasMultiplicar",
+    "imagen": "/imagenes/tablas_de_multiplicar.jpg",
+    "nombre": "Tabla de multiplicar didáctica",
+    "descripcion": "Tabla de multiplicar con ilustraciones para niños",
+    "precio": "900"
+  },
+  {
+    "id": 30,
+    "anuncio": "Ofertas",
+    "grupo": "Oferta",
+    "imagen": "/imagenes/oferta_home_destacada.jpg",
+    "nombre": "Pack de Bienvenida Escolar",
+    "descripcion": "Set de cuadernos, agenda y stickers en promoción",
+    "precio": "8000"
+  }
+]
