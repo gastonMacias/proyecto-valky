@@ -1,15 +1,20 @@
 
+import { useState } from "react";
 import useCarrito from "../../context/useCarrito";
 
 
 
 const Cards = ({ producto }) => {
 
+    const [buttonText, setButtonText] = useState('Agregar al carrito')
+
     const { agregarAlCarrito } = useCarrito();
+
 
     const handleAgregar = () => {
         console.log("Click en Agregar al carrito", producto); // 👈 Log para verificar
         agregarAlCarrito(producto);
+        setButtonText('En el carrito');
       };
 
     return (
@@ -35,7 +40,7 @@ const Cards = ({ producto }) => {
                     <button className="w-full p-2 border rounded bg-pink-200 hover:bg-pink-400 hover:text-white transition duration-300" 
                     onClick={handleAgregar}
                     >
-                        Agregar al carrito
+                        {buttonText}
                     </button>
                 </div>
             </div>
